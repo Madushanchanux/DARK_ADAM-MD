@@ -94,12 +94,12 @@
     "packname": {
       "description": "Pack name for your bot",
       "required": false,
-      "default": "SAHAS TECH"
+      "default": "CHANUX TECH"
     },
     "author": {
       "description": "Author name for your bot",
       "required": false,
-      "default": "SAHAS TECH"
+      "default": "CHANUX TECH"
     },
     "OPENWEATHER_API_KEY": {
       "description": "API key for OpenWeather",
