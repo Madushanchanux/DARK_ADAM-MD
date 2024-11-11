@@ -1,16 +1,16 @@
 {
-  "name": "Didula-MD",
+  "name": "DARK_ADAM-MD",
   "version": "10.8.1",
-  "description": "Didula-MD latest multi device whatsapp bot",
+  "description": "DARK_ADAM-MD latest multi device whatsapp bot",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name Didula-MD",
+    "start": "pm2 start index.js --deep-monitoring --attach --name DARK_ADAM-MD",
     "stop": "pm2 stop Didula-MD",
-    "restart": "pm2 restart Didula-MD"
+    "restart": "pm2 restart DARK_ADAM-MD"
   },
-  "keywords": ["didula-md", "whatsapp-bot", "whatsapp md bot"],
-  "author": "Didula",
+  "keywords": ["DARK_ADAM-MD", "whatsapp-bot", "whatsapp md bot"],
+  "author": "CHANUKA",
   "license": "ISC",
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
