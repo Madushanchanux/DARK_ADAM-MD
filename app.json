@@ -1,7 +1,7 @@
 {
   "name": "DARK_ADAM-MD",
   "description": "Javascript WhatsApp bot made by DARK_ADAM-MD",
-  "logo": "https://telegra.ph/file/1e4ba22b080c8fd6134f2.jpg",
+  "logo": "https://files.catbox.moe/m9rojt.jpg",
   "keywords": ["bot"],
   "success_url": "/",
 
@@ -29,7 +29,7 @@
     "OWNER_NUMBER": {
       "description": "Owner Number",
       "required": true,
-      "default": "94741469245"
+      "default": "94770659867"
     },
     "ALIVE_IMG": {
       "description": "Put your alive img here.",
