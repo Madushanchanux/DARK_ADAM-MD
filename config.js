@@ -61,17 +61,6 @@ module.exports = {
 _Thank you for using_ *💚DARK_ADAM-MD💚.*
 _We're here to make your experience enjoyable and seamless._
 _If you need any help or have questions, don't hesitate to ask._ 🌝💗
-
-*🖇️Join My WhatsApp Channel✓💗 - :* coming soon
-
-*🖇️Subscribe My Youtube Channel✓💗 - :* https://youtube.com/@c2klegendchanuka.?si=RMtXNcAVTy4hi5DW
-
-*🖇️Fork & Star My Repo✓💗 - :* coming soon
-
-*🖇️Follow My Github Account✓💗 - :* coming soon
-
-_*👨‍💻 Enjoy your time with us! 😊*_
-
 > *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*` ,
 
   ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/m9rojt.jpg",
