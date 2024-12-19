@@ -4,7 +4,7 @@ const os = require("os")
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson} = require('../lib/functions')
 cmd({
     pattern: "alive",
-    desc: "Check DARK_ADAM-MD online or no.",
+    desc: "Check bot online or no.",
     category: "main",
     filename: __filename
 },
@@ -22,7 +22,7 @@ cmd({
     pattern: "ping",
     react: "⚡",
     alias: ["speed"],
-    desc: "Check DARK_ADAM-MD\'s ping",
+    desc: "Check bot\'s ping",
     category: "main",
     use: '.ping',
     filename: __filename
@@ -76,8 +76,8 @@ let madeMenu = `
 ✨ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 your bot name ✨ 
 ╭─「 ᴄᴏᴍᴍᴀɴᴅꜱ ᴘᴀɴᴇʟ」
 │◈ яυηтιмє * ${runtime(process.uptime())}
-│◈ σωηєя ηαмє * DARK_ADAM-MD
-│◈ σωηєя ηυмвєя * DARK_ADAM-MD 
+│◈ σωηєя ηαмє * your name
+│◈ σωηєя ηυмвєя * your number 
 ╰──────────●●►
 ╭──────────●●►
  📥 *𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐌𝐞𝐧𝐮*
@@ -130,9 +130,9 @@ let madeMenu = `
  ${menu.tools}
 ╰───────────●●►
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ DARK_ADAM-MD*`
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ your bot name*`
 
-return await conn.sendMessage(from,{image: {url: `https://files.catbox.moe/m9rojt.jpg`},caption:madeMenu},{quoted: mek})
+return await conn.sendMessage(from,{image: {url: `https://files.catbox.moe/de82e3.jpg`},caption:madeMenu},{quoted: mek})
 }catch(e){
 console.log(e)
 reply(`𝔼𝕣𝕣𝕣𝕠𝕣`)

@@ -19,7 +19,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const data = search.videos[0];
         const url = data.url;
 
-        let desc = `*🎼 DARK_ADAM-MD SONG DOWNLOADER . .⚙️*
+        let desc = `*🎼 SAHAS-MD SONG DOWNLOADER . .⚙️*
 
 🎼⚙️ TITLE - ${data.title}
 
@@ -92,7 +92,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const data = search.videos[0];
         const url = data.url;
 
-        let desc = `*📽️ DARK_ADAM-MD VIDEO DOWNLOADER . .⚙️*
+        let desc = `*📽️ SAHAS-MD VIDEO DOWNLOADER . .⚙️*
 
 📽️⚙️ TITLE - ${data.title}
 
