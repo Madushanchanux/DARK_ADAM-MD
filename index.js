@@ -23,7 +23,7 @@ const ownerNumber = ['94718913389']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
-if(!config.SESSION_ID) return console.log('VAJIRA-MD=bdkkDZ6Y#TyAY5gH9RGaVR1yIgEVHXf_3UTrpPwJNRa7Ajh6sauo')
+if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
 const sessdata = config.SESSION_ID
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
@@ -67,11 +67,11 @@ require("./plugins/" + plugin);
 }
 });
 console.log('Plugins installed successful ✅')
-console.log('DARK_ADAM-MD connected to whatsapp ✅')
+console.log('Bot connected to whatsapp ✅')
 
-let up = `https://files.catbox.moe/m9rojt.jpg connected successful ✅\n\nPREFIX: ${prefix}`;
+let up = `Bot Name connected successful ✅\n\nPREFIX: ${prefix}`;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://files.catbox.moe/m9rojt.jpg` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://pomf2.lain.la/f/uzu4feg.jpg` }, caption: up })
 
 }
 })
@@ -148,7 +148,7 @@ conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
             
 //========OwnerReact========            
          
-if(senderNumber.includes("94741469245")){
+if(senderNumber.includes("947189133889")){
 if(isReact) return
 m.react("💗")
 }       
@@ -188,7 +188,7 @@ command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, i
 })
 }
 app.get("/", (req, res) => {
-res.send("DARK_ADAM-MD, bot started✅");
+res.send("hey, bot started✅");
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
